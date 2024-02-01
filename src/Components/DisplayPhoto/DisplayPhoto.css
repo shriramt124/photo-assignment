@@ -1,0 +1,44 @@
+.gallery-wrapper{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-image-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+ 
+
+
+}
+.heading{
+    font-size:40px;
+    color:blue;
+    text-transform: capitalize;
+    letter-spacing:5px;;
+}
+
+.gallery-image-wrapper img{
+    box-shadow: 0 0 10px black;
+}
+.buttons{
+    display: flex;
+    gap:20px;
+    margin-top:30px;
+
+}
+.buttons button{
+    padding: 20px;
+    background-color: orangered;
+    width:150px;
+    font-size:22px;
+    color:white;
+    font-size:xx-large;
+    border:none;
+    border-radius: 10px;
+    cursor:pointer;
+}
